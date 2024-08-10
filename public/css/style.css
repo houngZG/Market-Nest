@@ -1,0 +1,74 @@
+/* public/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.endpoint-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;  /* Border for the row */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+
+.endpoint-row button.method {
+    width: 80px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.endpoint-row span {
+    font-size: 18px;
+    color: #333;
+}
+
+.endpoint-row.get {
+    background-color: #e7f1ff; /* Light blue background */
+    border-left: 5px solid #007bff; /* Blue border */
+}
+
+.endpoint-row.get button.method {
+    background-color: #007bff; /* Blue button */
+}
+
+.endpoint-row.post {
+    background-color: #eaf7ea; /* Light green background */
+    border-left: 5px solid #28a745; /* Green border */
+}
+
+.endpoint-row.post button.method {
+    background-color: #28a745; /* Green button */
+}
+
+/* Additional styles for PUT and DELETE (if needed) */
+.endpoint-row.put {
+    background-color: #fff3cd; /* Light orange background */
+    border-left: 5px solid #ffc107; /* Orange border */
+}
+
+.endpoint-row.put button.method {
+    background-color: #ffc107; /* Orange button */
+}
+
+.endpoint-row.delete {
+    background-color: #f8d7da; /* Light red background */
+    border-left: 5px solid #dc3545; /* Red border */
+}
+
+.endpoint-row.delete button.method {
+    background-color: #dc3545; /* Red button */
+}
